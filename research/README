@@ -1,37 +1,13 @@
-# 成分研究库
+## 文件列表
 
-存放单个成分的研究资料，每个成分一个文件。
+- [x] muscle-metabolism.md — 肌肉代谢与精力
+- [ ] skin-aging.md — 皮肤抗衰
+- [ ] hair-loss.md — 脱发
+- [ ] gut-health.md — 肠胃健康
+- [ ] sleep-quality.md — 睡眠质量
+- [ ] immune-system.md — 免疫力
 
-## 文件命名规则
-英文小写，用横线分隔：`fish-oil.md` `vitamin-d3.md` `coq10.md`
-
-## 文件标准格式
-
-```markdown
-# [成分名称]
-
-## 核心功效（已验证数据）
-- 数据点1（来源：xxx）
-- 数据点2（来源：xxx）
-
-## 适用场景/人群
-- 场景1
-- 场景2
-
-## 常见误区
-- 误区1
-- 误区2
-
-## 可直接引用的句子
-（写好可以直接放进文案的句子）
-
-## 关联话题
-（链接到topics/中相关的话题文件）
-```
-
-## 当前文件
-- [ ] fish-oil.md
-- [ ] vitamin-d3.md
-- [ ] coq10.md
-- [ ] collagen.md
-- [ ] magnesium.md
+## 与ingredients的关系
+topics是跨成分的综合话题（比如"皮肤抗衰"会涉及胶原蛋白、维生素C、鱼油等多个成分）
+ingredients是单一成分的深度资料
+写内容时：先看topics找整体框架，再看ingredients补充具体成分数据
